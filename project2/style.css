@@ -1,73 +1,108 @@
 .name {
-    text-align: center;
-    font-size: 40px;
-    color: black;
-    background-color: rgb(217, 193, 161);
-}
-
-.dog {
-    float: right;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  background-color: rgb(217, 193, 161);
 }
 
 .hot {
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
 }
 
 .cold {
-    width: 100%;
-    font-size: 20px;
-
+  width: 100%;
+  font-size: 20px;
 }
 
-.font{
-    font-family: 'Times New Roman', Times, serif;
+.font {
+  font-family: "Times New Roman", Times, serif;
 }
-.yenme{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-table, th, td
-{
-    border: 3px solid black;
-    table-layout: auto;
-    text-align: center;
-    border-collapse: collapse;
-}
-.th
-{
-    font-family: "Brush Script MT", cursive;
-}
-
-
-td
-{
-  height: auto;
+.yenme {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .flex-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .flex-box {
-    width: 200px;
-    height: 200px;
-    font-size: 15px;
-    text-align: center;
-    line-height: 200px;
-    border-radius: 25px;
-    margin: 10px;
-    border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.my-header {
+  background-color: #f5efff;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-link {
+  margin: 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.project-uno {
+  width: 100%;
+  padding: 10px;
+}
+
+.data-table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  table-layout: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+th {
+  /* font-family: "Brush Script MT", cursive; */
+  font-weight: bold;
+}
+
+td,
+th {
+  height: 100px;
+}
+
+.centered-td {
+  padding: 20px;
 }
