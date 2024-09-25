@@ -1,0 +1,82 @@
+.root-container {
+  border: 1px solid black;
+  width: auto;
+  padding: 50px;
+  background-color: #f5f5f5;
+  color: #295f98;
+}
+
+.my-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-skills {
+}
+
+.my-education {
+}
+
+.my-experience {
+}
+
+.name {
+  color: #424242;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.title {
+  color: #229799;
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.wrap {
+  word-wrap: break-word;
+  width: 200px;
+  line-height: 2em;
+}
+
+.info {
+  font-size: 12px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+div.container .help {
+  color: red;
+}
+
+#abcd {
+  font-size: 20px;
+}
+
+.call {
+  height: 250px;
+  width: 250px;
+}
+
+.content {
+  text-align: justify;
+}
+
+.unordered-list {
+  text-transform: capitalize;
+}
+
+.skill-level {
+  color: #78b7d0;
+  font-size: 11px;
+}
+
+.project-links {
+  text-decoration: none;
+}
