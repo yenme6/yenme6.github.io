@@ -1,0 +1,58 @@
+.my-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.popover {
+  width: 350px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.popover-arrow {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #333;
+  position: absolute;
+  bottom: -15px;
+  left: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.user-info .user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info .user-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-info .user-title {
+  font-size: 14px;
+  color: #666;
+}
