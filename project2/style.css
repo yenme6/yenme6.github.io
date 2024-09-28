@@ -106,12 +106,29 @@ th {
 .centered-td {
   padding: 20px;
 }
-.mobile-data-table{
-  display: none;
+
+.designation{
+  font-size: 40px;
+  text-align: center;
+}
+.headingcolor{
+  color: #295f98;
 }
 
+.data-table{
+
+}
+.mobile-data-table{
+  visibility: collapse;
+}
 @media (max-width:600px) 
 {
+  .data-table{
+visibility: collapse;
+  }
+  .mobile-data-table{
+    visibility: visible;
+  }
   .my-header{
     background-color: #f5efff;
     padding: 20px;
@@ -137,6 +154,7 @@ th {
   .mobile-data-table {
     width:100%;
     margin-top: 10px;
+    
 
   }
   table,
