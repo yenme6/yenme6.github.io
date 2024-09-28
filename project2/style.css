@@ -106,6 +106,9 @@ th {
 .centered-td {
   padding: 20px;
 }
+.mobile-data-table{
+  display: none;
+}
 
 @media (max-width:600px) 
 {
