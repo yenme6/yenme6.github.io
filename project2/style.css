@@ -48,7 +48,7 @@
   align-items: center;
   margin: 10px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 60px;
 }
 
 .my-header {
@@ -106,3 +106,50 @@ th {
 .centered-td {
   padding: 20px;
 }
+
+@media (max-width:600px) 
+{
+  .my-header{
+    background-color: #f5efff;
+    padding: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .title {
+    color: #229799;
+    text-transform: uppercase;
+    text-align: center;
+    color: red
+    
+  }
+  .nav-links {
+    text-align: center;
+  }
+  .designation{
+    font-size: 25px;
+    text-align: center;
+  }
+  .mobile-data-table {
+    width:100%;
+    margin-top: 10px;
+
+  }
+  table,
+th,
+td {
+  border: 1px solid black;
+  table-layout: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+.sizeofheading{
+  font-size: 30px;
+}
+.data-table{
+  display: none;
+}
+}
+
+

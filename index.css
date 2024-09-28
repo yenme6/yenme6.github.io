@@ -13,14 +13,11 @@
   align-items: center;
 }
 
-.my-skills {
-}
+.my-skills {}
 
-.my-education {
-}
+.my-education {}
 
-.my-experience {
-}
+.my-experience {}
 
 .name {
   color: #424242;
@@ -80,3 +77,4 @@ div.container .help {
 .project-links {
   text-decoration: none;
 }
+
