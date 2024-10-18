@@ -1,0 +1,26 @@
+.sub-text
+{
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.main-text{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.border-around{
+    padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid black;
+  border-radius: 45px;
+  padding: 35px;
+  background-color: rgb(229, 235, 240);
+}

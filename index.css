@@ -77,3 +77,10 @@ div.container .help {
   text-decoration: none;
 }
 
+.container
+{
+  display: flex;
+}
+
+
+

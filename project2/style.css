@@ -69,6 +69,7 @@
   margin: 15px;
   text-decoration: none;
   font-size: 16px;
+  color:blue;
 }
 
 .project-uno {
@@ -120,6 +121,9 @@ th {
 }
 .mobile-data-table{
   visibility: collapse;
+  .cd{
+    color: blue;
+  }
 }
 @media (max-width:600px) 
 {
@@ -170,6 +174,9 @@ td {
 }
 .data-table{
   display: none;
+}
+.nav-link{
+  color: blue;
 }
 }
 
