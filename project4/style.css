@@ -86,3 +86,10 @@ font-size: 20px;
     position: relative;
     left: 163px;
 }
+
+.position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
