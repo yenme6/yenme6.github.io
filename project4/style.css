@@ -1,5 +1,4 @@
-.sub-text
-{
+.sub-text {
     font-size: 20px;
     color: grey;
     display: flex;
@@ -7,29 +6,30 @@
     text-align: center;
 
 }
-.main-text{
+
+.main-text {
     font-size: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.border-around{
+
+.border-around {
     padding: 30px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  border: 1px solid black;
-  border-radius: 45px;
-  padding: 35px;
-  background-color: rgb(229, 235, 240);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid black;
+    border-radius: 45px;
+    padding: 35px;
+    background-color: rgb(229, 235, 240);
 }
 
-.big-line
-{
-position: relative;
-text-align: left;
-margin: 20px 0;
+.big-line {
+    position: relative;
+    text-align: left;
+    margin: 20px 0;
 }
 
 .big-line::before {
@@ -43,26 +43,28 @@ margin: 20px 0;
     border-radius: 45px;
 }
 
-.given-date{
+.given-date {
     font-size: 15px;
     margin-bottom: 25px;
     position: relative;
     left: -85px;
     color: grey;
-   
-}
-.given-content
-{
-font-size: 20px;
 
 }
-.big-dot{
-    display:flex;
+
+.given-content {
+    font-size: 20px;
+
+}
+
+.big-dot {
+    display: flex;
     align-items: center;
     margin-bottom: 20px;
     padding-left: 70px;
 }
-.big-dot::before{
+
+.big-dot::before {
     content: '';
     position: absolute;
     left: 110px;
@@ -72,7 +74,8 @@ font-size: 20px;
     border-radius: 50%;
 
 }
-.changelog{
+
+.changelog {
     width: 20vh;
     text-align: center;
     display: flex;
@@ -84,12 +87,60 @@ font-size: 20px;
     background-color: black;
     padding: 11px;
     position: relative;
-    left: 163px;
+    left: 729px;
 }
 
-.position{
+.position {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    
+
+}
+
+
+@media (max-width:600px) {
+    .changelog {
+        width: 20vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 14px;
+        background-color: black;
+        padding: 11px;
+        position: sticky;
+        left: 700px;
+    }
+
+    .position2 {
+        position: relative;
+        left: 9px;
+    }
+
+    .position3 {
+        position: relative;
+        right: 20px;
+    }
+
+    .position4 {
+        position: relative;
+        left: 9px;
+    }
+
+    .position5 {
+        position: relative;
+        left: -20px;
+    }
+
+    .position6 {
+        position: relative;
+        left: -20px;
+    }
+
+    .position7 {
+        position: relative;
+        left: 7px;
+    }
 }
