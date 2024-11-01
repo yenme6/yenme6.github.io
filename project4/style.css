@@ -23,7 +23,6 @@
     border: 1px solid black;
     border-radius: 45px;
     padding: 35px;
-    background-color: rgb(229, 235, 240);
 }
 
 .big-line {
@@ -37,17 +36,18 @@
     position: absolute;
     background: black;
     height: 100%;
-    left: 116px;
+    left: 117px;
     top: 0px;
-    width: 3px;
+    width: 1px;
     border-radius: 45px;
 }
 
 .given-date {
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 34px;
     position: relative;
     left: -85px;
+    bottom: -17px;
     color: grey;
 
 }
