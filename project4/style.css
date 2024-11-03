@@ -81,7 +81,7 @@
 }
 
 .changelog {
-    width: 20vh;
+    width: 20vw;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -102,6 +102,22 @@
 
 }
 
+.box-container{
+    border:10px solid black;
+    max-width: 700px; 
+    margin: auto;
+    background-color: #000;
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: black;
+    padding: 11px;
+    color: white;
+    background-color: black;
+}
+.button{
+    color: white;
+    background-color: black;
+}
 
 @media (max-width:600px) {
 
