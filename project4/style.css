@@ -1,3 +1,5 @@
+
+
 .sub-text {
     font-size: 20px;
     color: grey;
@@ -23,6 +25,9 @@
     border: 1px solid black;
     border-radius: 45px;
     padding: 35px;
+    margin-block: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .big-line {
@@ -87,7 +92,7 @@
     background-color: black;
     padding: 11px;
     position: relative;
-    left: 729px;
+    left: 292px;
 }
 
 .position {
@@ -99,6 +104,13 @@
 
 
 @media (max-width:600px) {
+
+    .border-around{
+        margin-block: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+
     .changelog {
         width: 20vh;
         text-align: center;

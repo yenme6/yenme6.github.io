@@ -289,5 +289,8 @@
     padding: 30px;
     float: inline-start;
   }
-
+  .contentb {
+    
+    justify-content: center;
+  }
 }
