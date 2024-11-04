@@ -1,87 +1,128 @@
-
-
 .sub-text {
-    font-size: 20px;
-    color: grey;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
+  font-size: 20px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .main-text {
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .border-around {
-    padding: 30px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    border: 1px solid black;
-    border-radius: 45px;
-    padding: 35px;
-    margin-block: 10px;
-    margin-right: 100px;
-    margin-left: 100px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid black;
+  border-radius: 45px;
+  padding: 35px;
+  margin-block: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .big-line {
-    position: relative;
-    text-align: left;
-    margin: 20px 0;
+  position: relative;
+  text-align: left;
+  margin: 20px 0;
 }
 
 .big-line::before {
-    content: '';
-    position: absolute;
-    background: black;
-    height: 100%;
-    left: 117px;
-    top: 0px;
-    width: 1px;
-    border-radius: 45px;
+  content: "";
+  position: absolute;
+  background: black;
+  height: 100%;
+  left: 117px;
+  top: 0px;
+  width: 1px;
+  border-radius: 45px;
 }
 
 .given-date {
-    font-size: 15px;
-    margin-bottom: 34px;
-    position: relative;
-    left: -85px;
-    bottom: -17px;
-    color: grey;
-
+  font-size: 15px;
+  margin-bottom: 34px;
+  position: relative;
+  left: -85px;
+  bottom: -17px;
+  color: grey;
 }
 
 .given-content {
-    font-size: 20px;
-
+  font-size: 20px;
 }
 
 .big-dot {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding-left: 70px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 70px;
 }
 
 .big-dot::before {
-    content: '';
-    position: absolute;
-    left: 110px;
-    width: 15px;
-    height: 15px;
-    background-color: #000;
-    border-radius: 50%;
-
+  content: "";
+  position: absolute;
+  left: 110px;
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  border-radius: 50%;
 }
 
 .changelog {
-    width: 20vw;
+  width: 20vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 14px;
+  background-color: black;
+  padding: 11px;
+  position: relative;
+  left: 292px;
+}
+
+.position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box-container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #000;
+  border: 1px solid black;
+  border-radius: 14px;
+  background-color: black;
+  padding: 11px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+button {
+  color: white;
+  background-color: black;
+  border: 0px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .border-around {
+    margin-block: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .changelog {
+    width: 20vh;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -91,84 +132,37 @@
     border-radius: 14px;
     background-color: black;
     padding: 11px;
+    position: sticky;
+    left: 700px;
+  }
+
+  .position2 {
     position: relative;
-    left: 292px;
-}
+    left: 9px;
+  }
 
-.position {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .position3 {
+    position: relative;
+    right: 20px;
+  }
 
-}
+  .position4 {
+    position: relative;
+    left: 9px;
+  }
 
-.box-container{
-    border:10px solid black;
-    max-width: 700px; 
-    margin: auto;
-    background-color: #000;
-    border: 1px solid black;
-    border-radius: 14px;
-    background-color: black;
-    padding: 11px;
-    color: white;
-    background-color: black;
-}
-.button{
-    color: white;
-    background-color: black;
-}
+  .position5 {
+    position: relative;
+    left: -20px;
+  }
 
-@media (max-width:600px) {
+  .position6 {
+    position: relative;
+    left: -20px;
+  }
 
-    .border-around{
-        margin-block: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    }
-
-    .changelog {
-        width: 20vh;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-        border: 1px solid black;
-        border-radius: 14px;
-        background-color: black;
-        padding: 11px;
-        position: sticky;
-        left: 700px;
-    }
-
-    .position2 {
-        position: relative;
-        left: 9px;
-    }
-
-    .position3 {
-        position: relative;
-        right: 20px;
-    }
-
-    .position4 {
-        position: relative;
-        left: 9px;
-    }
-
-    .position5 {
-        position: relative;
-        left: -20px;
-    }
-
-    .position6 {
-        position: relative;
-        left: -20px;
-    }
-
-    .position7 {
-        position: relative;
-        left: 7px;
-    }
+  .position7 {
+    position: relative;
+    left: 7px;
+  }
 }
