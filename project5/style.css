@@ -1,29 +1,17 @@
-.box-container
-{
-    padding: 30px;
-    width: 80%;
-    max-width: 1000px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    border: 1px solid black;
-}
+
 .input-field {
     align-items: center;
     border: 1px solid black;
     padding: 5px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100vw;
-
+    margin-bottom: -15px;
 }
 .calander-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .calendar{
     border: 1px solid black;
@@ -59,4 +47,10 @@
 h1{
     text-align: center;
     font-family: fantasy;
+}
+@media (max-width:600px){
+    .calander-container{
+        margin-left: 10px;
+    margin-right: 10px;
+    }
 }
